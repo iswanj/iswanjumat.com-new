@@ -1,0 +1,26 @@
+@import url('https://use.typekit.net/aex4toj.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'aktiv-grotesk-arabic', sans-serif;
+}
+
+.header-font {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.paragraph-font {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-highlighter {
+  background: #f9b700;
+}
+
+.icon-hover-color {
+  color: #f9b700;
+}

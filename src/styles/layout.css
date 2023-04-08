@@ -1,0 +1,12 @@
+@tailwind utilities;
+@variants dark {
+  .image-dark {
+    content: url('/assets/logo-dark.svg');
+  }
+}
+
+@variants light {
+  .image-light {
+    content: url('/assets/logo.svg');
+  }
+}

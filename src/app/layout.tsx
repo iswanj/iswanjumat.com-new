@@ -1,5 +1,4 @@
 import '@/styles/globals.css';
-import '@/styles/layout.css';
 import {cn} from '@/lib/utils';
 import {Inter} from 'next/font/google';
 import Providers from '@/components/Providers';

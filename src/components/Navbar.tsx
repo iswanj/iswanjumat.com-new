@@ -1,4 +1,3 @@
-import {getServerSession} from 'next-auth';
 import Link from 'next/link';
 import Image from 'next/image';
 import {FC} from 'react';
@@ -8,7 +7,6 @@ import {buttonVariants} from '@/components/ui/Button';
 import ThemeToggle from '@/components/ThemeToggle';
 
 const Navbar = async () => {
-  const session = await getServerSession();
   return (
     <div className="fixed backdrop-blur-sm bg-slate-100 dark:bg-slate-900 z-50 top-0 left-0 right-0 h-28 flex items-center justify-between">
       <div className="container max-w-7xl mx-auto w-full flex justify-between items-center">

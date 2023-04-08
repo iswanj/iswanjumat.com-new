@@ -7,6 +7,18 @@
   font-family: 'aktiv-grotesk-arabic', sans-serif;
 }
 
+@variants dark {
+  .image-dark {
+    content: url('/assets/logo-dark.svg');
+  }
+}
+
+@variants light {
+  .image-light {
+    content: url('/assets/logo.svg');
+  }
+}
+
 .header-font {
   font-weight: 500;
   font-style: normal;

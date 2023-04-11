@@ -27,7 +27,7 @@ const Navbar = async () => {
           {/* <Link href="/documentation" className={buttonVariants({ variant: "ghost" })}>
             Documentation
           </Link> */}
-          <DownloadButton />
+          <DownloadButton label="My Resume" />
         </div>
       </div>
     </div>

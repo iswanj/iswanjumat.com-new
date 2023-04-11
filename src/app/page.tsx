@@ -33,26 +33,36 @@ export default function Home() {
           </Paragraph>
         </div>
         <div className="flex items-center justify-center gap-5 pb-20">
-          <Icons.Github
-            size={32}
-            className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
-          />
-          <Icons.Linkedin
-            size={32}
-            className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
-          />
-          <Icons.Instagram
-            size={32}
-            className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
-          />
-          <Icons.Twitter
-            size={32}
-            className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
-          />
-          <Icons.Facebook
-            size={32}
-            className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
-          />
+          <a href="https://github.com/iswanj" target="_blank">
+            <Icons.Github
+              size={32}
+              className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/iswanjumat/" target="_blank">
+            <Icons.Linkedin
+              size={32}
+              className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
+            />
+          </a>
+          <a href="https://www.instagram.com/iswanjumat/" target="_blank">
+            <Icons.Instagram
+              size={32}
+              className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
+            />
+          </a>
+          <a href="https://twitter.com/TuanIswan" target="_blank">
+            <Icons.Twitter
+              size={32}
+              className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
+            />
+          </a>
+          <a href="https://www.facebook.com/iswanjumat" target="_blank">
+            <Icons.Facebook
+              size={32}
+              className="hover:text-my-yellow text-slate-900 dark:text-slate-300 dark:hover:text-my-yellow"
+            />
+          </a>
         </div>
       </div>
     </div>

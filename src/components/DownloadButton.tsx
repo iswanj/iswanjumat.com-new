@@ -2,28 +2,17 @@
 
 import {FC, useState} from 'react';
 import {Button} from './ui/Button';
-import {toast} from '@/components/ui/Toast';
 
-interface SignInButtonProps {}
+interface DownloadButtonProps {
+  label: string;
+}
 
-const SignInButton: FC<SignInButtonProps> = ({}) => {
+const DownloadButton: FC<DownloadButtonProps> = ({label}) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
-  const signInWithGoogle = async () => {
-    setIsLoading(true);
+  const downloadMyResume = () => {};
 
-    try {
-      // handle download resume here
-    } catch (error) {
-      toast({
-        title: 'Error downloading resume',
-        message: 'There was an error downloading. Please try again later.',
-        type: 'error',
-      });
-    }
-  };
-
-  return <Button onClick={signInWithGoogle}>My Resume</Button>;
+  return <Button onClick={downloadMyResume}>{label}</Button>;
 };
 
-export default SignInButton;
+export default DownloadButton;

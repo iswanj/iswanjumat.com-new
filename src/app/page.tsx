@@ -22,7 +22,7 @@ export default function Home() {
           <LargeHeading
             size="md"
             className="three-d text-slate-900 dark:text-slate-300 pt-2">
-            a Frontend Engineer
+            a Full-stack Engineer
           </LargeHeading>
           <Paragraph
             size="lg"

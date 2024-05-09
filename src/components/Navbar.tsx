@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import {FC} from 'react';
 import DownloadButton from '@/components/DownloadButton';
 
 import {buttonVariants} from '@/components/ui/Button';
@@ -24,9 +23,9 @@ const Navbar = async () => {
         </div>
         <div className="hidden md:flex gap-4">
           <ThemeToggle />
-          {/* <Link href="/documentation" className={buttonVariants({ variant: "ghost" })}>
-            Documentation
-          </Link> */}
+          <Link href="https://blog.iswanjumat.com/" target="_blank" className={buttonVariants({ variant: "ghost" })}>
+            Blog
+          </Link>
           <DownloadButton label="My Resume" />
         </div>
       </div>
